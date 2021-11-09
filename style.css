@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+  scroll-behavior: smooth;
+  font-size: 65.5%;
+}
+
+.jumbotron{
+  margin: 0;
+  background: url("./landscape.jpg");
+  color: #f9f9f9;
+  background-position: center;
+}
+.jumbotron h1{
+  font-size: 6rem;
+}
+.jumbotron p{
+  font-size: 2rem;
+}
+
+.map-container{
+  height: 100vh;
+  width: 100vw;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#map {
+    height: 70%;
+    width: 70%;
+    background: #333;
+}
+  
+ 
